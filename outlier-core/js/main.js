@@ -159,7 +159,8 @@ jQuery(function ($) {
 });
 
 function resizeHeader() {
-    $(".header-push").height($(".navbar-fixed-top").height());
+    //$(".header-push").height($(".navbar-fixed-top").height());
+	$('.header-push') .css({'min-height': (($('.navbar-fixed-top').height()) - 0)+'px'});
 }
 $(document).ready(resizeHeader);
 $(window).resize(resizeHeader);
