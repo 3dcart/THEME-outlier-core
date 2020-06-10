@@ -14,7 +14,31 @@ body {
 footer {
 	flex-shrink: 0;
 }
-
+.product-items.productList .product-item .product-content {
+    text-align: left;
+}
+.product-items.productList .product-item .img a {
+    position: initial;
+}
+.product-items.productList .product-item .img {
+    border:1px solid #ececec;
+}
+.product-items.productList .product-item .img img {
+    position: initial;
+}
+.homepage-blog-posts .post-image-container img {
+    height: 210px;
+}
+@media (max-width: 991px){
+.product-items.productList .product-item .img {
+    width: 32%;
+}
+}
+@media(max-width:767px){
+	.homepage-blog-posts .post-image-container img {
+		height: auto;
+	}
+}
 body {
     /*font-family: Arial,Helvetica Neue,Helvetica,sans-serif;*/
 	font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
@@ -792,6 +816,7 @@ span.freeshipping {
     line-height: 1;
     padding:25px 50px;
     margin: 0 0 40px;
+
     font-weight: bold;
     text-transform: none;
     color: #000;
