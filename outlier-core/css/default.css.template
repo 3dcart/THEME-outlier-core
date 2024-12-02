@@ -773,7 +773,7 @@ span.freeshipping {
     margin: 15px auto;
 }
 .head-mobile-nav > a {
-    color: #fff;
+    color: #[header_bottom_text];
     font-size: 24px;
     line-height: 1;
     margin:0 0 0 0px;
